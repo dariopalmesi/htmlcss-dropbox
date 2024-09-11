@@ -18,18 +18,35 @@
 /* #region utility */
 .d-flex{
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     padding-top: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 2.5rem;
     padding-left: 1rem;
 }
 
 .left-menu {
     padding-top: 1.75rem;
+    gap: 3rem;
     a {
         text-decoration: none;
-        color: white;
+        color: black;
     }
 }
+
+.right-menu {
+    padding-top: 1.75rem;
+    gap: 3rem;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+.call-to-action {
+    padding-top: 1.5rem;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+}
+
