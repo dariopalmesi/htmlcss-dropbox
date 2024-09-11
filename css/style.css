@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px dashed;
+}
+
+.debug header {
+    background-color: aquamarine;
+    min-height: 150px;
+}
