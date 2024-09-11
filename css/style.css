@@ -3,12 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* #region debug */
 .debug {
     border: 1px dashed;
 }
 
 .debug header {
-    background-color: aquamarine;
+    background-color: red;
     min-height: 150px;
+}
+/* #end region debug */
+
+
+/* #region utility */
+.d-flex{
+    display: flex;
+}
+
+.logo {
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.left-menu {
+    padding-top: 1.75rem;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
