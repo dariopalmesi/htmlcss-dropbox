@@ -47,10 +47,15 @@ h2 {
     margin-top: 10rem;
 
 }
+
 hr {
     margin-top: 2rem;
     width: 50px;
     margin-bottom: 2rem;
+}
+
+h4 {
+    margin: 3rem 0;
 }
 
 /* #region utility */
@@ -160,6 +165,10 @@ button:hover {
     width: calc((100% / 12)*8);
 }
 
+.col-12 {
+    width: 100%;
+}
+
 .container-sm {
     width: 60%;
     margin: auto;
@@ -175,31 +184,49 @@ button:hover {
 .card {
     margin-top: 3rem;
     border: groove 2px;
+
+    .enterprise {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+    }
 }
+
 .single {
     text-align: center;
-    border-bottom: groove 2px;  
+    border-bottom: groove 2px;
 }
+
 .professional {
     display: flex;
     flex-direction: column;
     padding: 3rem;
+
     h3 {
         padding-bottom: 1rem;
     }
+
     .user {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
-    .share{
+
+    .share {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+
     .fa-check {
         color: #0061ff;
         margin-top: 3rem;
     }
 }
+
 .mounth {
     padding-top: 1rem;
+}
+
+.teams {
+    text-align: center;
+    border-bottom: groove 2px;
 }
