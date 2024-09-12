@@ -42,12 +42,17 @@ img {
 h1 {
     padding-bottom: 3rem;
 }
+h2 {
+    margin-top: 10rem;
 
-section {
-    background-color: var(--drop-secondary-color);
 }
 
 /* #region utility */
+
+.jumbotron {
+    background-color: var(--drop-secondary-color);
+} 
+
 .d-flex {
     display: flex;
     justify-content: space-between;
@@ -105,18 +110,17 @@ button {
 }
 
 .jumbo-container {
-    width: 60%;
-    height: 600px;
+    width: 70%;
+    height: 700px;
     margin: auto;
     text-align: center;
     padding-top: 2.5rem;
     font-size: larger;
-
 }
+
 .trial {
     width: 180px;
     height: 30px;
-    background-color: var(--drop-primary-color);
     color: white;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -136,9 +140,21 @@ button:hover {
 
 .col-4 {
     width: calc((100% / 12)*4);
-    text-align: left;
+    text-align: left
 }
 
 .col-8 {
     width: calc((100% / 12)*8);
+}
+
+.container-sm {
+    width: 60%;
+    margin: auto;
+    font-size: larger;
+}
+.input {
+    display: flex;
+}
+.input {
+       margin-top: 3rem;
 }
