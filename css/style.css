@@ -53,6 +53,9 @@ hr {
     width: 50px;
     margin-bottom: 2rem;
 }
+h3{
+    margin-top: 3rem;
+}
 
 h4 {
     margin: 3rem 0;
@@ -167,6 +170,7 @@ button:hover {
 
 .col-12 {
     width: 100%;
+    margin-bottom: 10rem;
 }
 
 .container-sm {
@@ -229,4 +233,23 @@ button:hover {
 .teams {
     text-align: center;
     border-bottom: groove 2px;
+}
+.office {
+    width: 250px;
+    height: 50px;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.partner {
+    margin-top: 1rem;
+}
+.partners {
+    border: groove 2px;
+    margin-top: 3rem;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding-top: 0.5rem;
 }
