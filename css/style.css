@@ -42,6 +42,7 @@ img {
 h1 {
     padding-bottom: 3rem;
 }
+
 h2 {
     margin-top: 10rem;
 
@@ -51,7 +52,7 @@ h2 {
 
 .jumbotron {
     background-color: var(--drop-secondary-color);
-} 
+}
 
 .d-flex {
     display: flex;
@@ -125,17 +126,23 @@ button {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
 }
+
 button:hover {
-   text-transform: lowercase;
-   cursor: pointer;
+    text-transform: lowercase;
+    cursor: pointer;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    i{
-        margin-top: 1.5rem;
+    margin: 0 --1rem;
+
+    i {
+        margin-top: 10rem;
     }
+}
+[class^=col-] {
+    padding: 1rem;
 }
 
 .col-4 {
@@ -152,9 +159,13 @@ button:hover {
     margin: auto;
     font-size: larger;
 }
+
 .input {
     display: flex;
+    gap: 2.5rem;
+    margin-top: 3.5rem;
 }
-.input {
-       margin-top: 3rem;
+.card {
+   border: groove 2px;
+   text-align: center;
 }
