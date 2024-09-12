@@ -47,6 +47,11 @@ h2 {
     margin-top: 10rem;
 
 }
+hr {
+    margin-top: 2rem;
+    width: 50px;
+    margin-bottom: 2rem;
+}
 
 /* #region utility */
 
@@ -136,11 +141,12 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     margin: 0 --1rem;
-
-    i {
-        margin-top: 10rem;
-    }
 }
+
+#moment {
+    margin-bottom: 20rem;
+}
+
 [class^=col-] {
     padding: 1rem;
 }
@@ -165,9 +171,35 @@ button:hover {
     gap: 2.5rem;
     margin-top: 3.5rem;
 }
+
 .card {
-   border: groove 2px;
-   text-align: center;
-   height: 25px;
-   width: 170px;
+    margin-top: 3rem;
+    border: groove 2px;
+}
+.single {
+    text-align: center;
+    border-bottom: groove 2px;  
+}
+.professional {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    h3 {
+        padding-bottom: 1rem;
+    }
+    .user {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .share{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .fa-check {
+        color: #0061ff;
+        margin-top: 3rem;
+    }
+}
+.mounth {
+    padding-top: 1rem;
 }
