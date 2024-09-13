@@ -7,6 +7,7 @@
 :root {
     --drop-primary-color: #0061ff;
     --drop-secondary-color: #b4d0e7;
+    --drop-square-primary: #a2d39b;
 }
 
 /* #region debug */
@@ -184,6 +185,9 @@ button:hover {
     width: 60%;
     margin: auto;
     font-size: larger;
+    .team {
+        font-size: 50px;
+    }
 }
 
 .input {
@@ -270,4 +274,12 @@ button:hover {
 }
 .card-business {
     margin-top: 3rem;
+}
+.logos {
+    display: flex;
+    .logos-left {
+       height: 300px;
+       width: 300px;
+       background-color:var(--drop-square-primary)
+    }
 }
