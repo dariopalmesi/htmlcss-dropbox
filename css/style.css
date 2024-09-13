@@ -45,7 +45,6 @@ h1 {
 
 h2 {
     margin-top: 10rem;
-
 }
 
 hr {
@@ -53,7 +52,8 @@ hr {
     width: 50px;
     margin-bottom: 2rem;
 }
-h3{
+
+h3 {
     margin-top: 3rem;
 }
 
@@ -161,7 +161,14 @@ button:hover {
 
 .col-4 {
     width: calc((100% / 12)*4);
-    text-align: left
+    text-align: left;
+
+    .find {
+        text-decoration: none;
+        border: groove 2px;
+        color: black;
+        padding: 1rem;
+    }
 }
 
 .col-8 {
@@ -234,6 +241,7 @@ button:hover {
     text-align: center;
     border-bottom: groove 2px;
 }
+
 .office {
     width: 250px;
     height: 50px;
@@ -242,9 +250,12 @@ button:hover {
     margin-bottom: 2rem;
     margin-right: 2rem;
 }
+
 .partner {
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
+
 .partners {
     border: groove 2px;
     margin-top: 3rem;
@@ -252,4 +263,11 @@ button:hover {
     width: 150px;
     height: 50px;
     padding-top: 0.5rem;
+}
+.drop-business {
+    text-align: center;
+    font-size: 50px;
+}
+.card-business {
+    margin-top: 3rem;
 }
