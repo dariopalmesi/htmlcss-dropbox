@@ -11,6 +11,10 @@
     --drop-square-secondary: #61082b;
     --drop-square-terziary: #0093ce;
     --drop-square-fourth: #ff1c1c;
+    --drop-square-five: #d5001f;
+    --drop-square-six: #b4d0e7;
+    --drop-square-seven: #0d2481;
+    --drop-square-eight: #ffd830;
 }
 
 /* #region debug */
@@ -165,6 +169,7 @@ button:hover {
 
 .col-4 {
     width: calc((100% / 12)*4);
+    text-align: left;
     
 
     .find {
@@ -281,10 +286,14 @@ button:hover {
 .card-business {
     margin-top: 3rem;
 }
+.team {
+    margin-bottom: 2rem;
+}
 .block-4 {
     width: calc((100% / 12)*4);
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10rem;
     .logos-desi {
         width: 35%;
         aspect-ratio: 1;
@@ -313,8 +322,40 @@ button:hover {
         display: flex;
         justify-content: center;
     }
+    .logos-world {
+        width: 35%;
+        aspect-ratio: 1;
+        background-color: var(--drop-square-five);
+        display: flex;
+        justify-content: center;
+    }
+    .logos-hears {
+        width: 35%;
+        aspect-ratio: 1;
+        background-color: var(--drop-square-six);
+        display: flex;
+        justify-content: center;
+    }
+    .logos-lonely {
+        width: 35%;
+        aspect-ratio: 1;
+        background-color: var(--drop-square-seven);
+        display: flex;
+        justify-content: center;
+    }
+    .logos-clear {
+        width: 35%;
+        aspect-ratio: 1;
+        background-color: var(--drop-square-eight);
+        display: flex;
+        justify-content: center;
+    }
+
 }
 .logos {
     filter: invert(100%);
     width: 60%;
+}
+.center {
+   margin-top: 10rem;
 }
